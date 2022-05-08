@@ -17,5 +17,9 @@ code {
 }
 
 .App {
-  @apply bg-fuchsia-100 min-h-screen shadow-[inset_25px_25px_45px_5px_rgba(147,197,253,0.3)];
+  @apply bg-violet-400 relative min-h-screen;
+
+  > main {
+    @apply container mx-auto
+  }
 }
